@@ -1,0 +1,38 @@
+/* Header.module.css */
+
+@import '../variantes.css';
+
+/*  
+    --primary-color: #FCFF38;
+    --secondary-color: #05F2F2;
+    --backgrond-color: #000000;
+
+    --error:#F20544;
+    --error2:#F20574;
+
+    --success: #138400;
+
+    --button-background: transparent;
+    --text-color: #000000;
+    --second-text-color: #FFFFFF;
+     */
+
+.header {
+    background-color: var(--backgrond-color);
+    color: var(--second-text-color);
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .username {
+    margin: 0 10px;
+  }
+  
+  .settingsIcon {
+    font-size: 24px;
+    cursor: pointer;
+    padding: 6px;
+    color: var(--primary-color);
+  }

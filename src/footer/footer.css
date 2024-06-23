@@ -1,0 +1,42 @@
+/* src/components/Footer.css */
+@import '../variantes.css';
+
+/*  
+    --primary-color: #FCFF38;
+    --secondary-color: #05F2F2;
+    --backgrond-color: #000000;
+
+    --error:#F20544;
+    --error2:#F20574;
+
+    --success: #138400;
+
+    --button-background: transparent;
+    --text-color: #000000;
+    --second-text-color: #FFFFFF;
+     */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--backgrond-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer button {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.footer button:hover {
+    background-color: var(--primary-color);
+}

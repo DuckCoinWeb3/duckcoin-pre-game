@@ -1,0 +1,14 @@
+:root {
+    --primary-color: #FCFF38;
+    --secondary-color: #05F2F2;
+    --backgrond-color: #000000;
+
+    --error:#F20544;
+    --error2:#F20574;
+
+    --success: #138400;
+
+    --button-background: transparent;
+    --text-color: #000000;
+    --second-text-color: #FFFFFF;
+}

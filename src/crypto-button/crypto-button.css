@@ -1,0 +1,44 @@
+@import '../variantes.css';
+
+/*  
+    --primary-color: #FCFF38;
+    --secondary-color: #05F2F2;
+    --backgrond-color: #000000;
+
+    --error:#F20544;
+    --error2:#F20574;
+
+    --success: #138400;
+
+    --button-background: transparent;
+    --text-color: #000000;
+    --second-text-color: #FFFFFF;
+     */
+
+
+.animal-button {
+    width: 150px; /* Ajusta el tamaño según sea necesario */
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid var(--secondary-color);
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.1s ease-in-out; /* Animación de transición */
+}
+
+.animal-image {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.animal-button:hover {
+    border-color: var(--primary-color);; /* Efecto hover opcional */
+}
+
+.animal-button.pressed {
+    transform: scale(0.9); /* Efecto de presionado */
+}
